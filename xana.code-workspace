@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../../.."
+    },
+    {
+      "path": "../../../../../.."
+    }
+  ],
+  "settings": {
+    "sqltools.connections": [
+      {
+        "mysqlOptions": {
+          "authProtocol": "default"
+        },
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 3306,
+        "driver": "MySQL",
+        "database": "xaniis_profile",
+        "name": "xaniis_profile",
+        "username": "root",
+        "password": "(9q\\\"BjVJmx_9sa2r"
+      }
+    ],
+    "hide-files.files": []
+  }
+}
