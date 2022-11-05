@@ -42,4 +42,46 @@ function xana_scripts() {
     //         "site_url" => get_site_url(),
     //     ]);
     // }
+
+
+    // wp_add_inline_script('goftino', '
+    // !function() {
+    //     var i = "9BiGFT",
+    //         a = window,
+    //         d = document;
+    //     function g() {
+    //         var g = d.createElement("script"),
+    //             s = "https://www.goftino.com/widget/" + i,
+    //             l = localStorage.getItem("goftino_" + i);
+    //         g.async = !0, g.src = l ? s + "?o=" + l : s;
+    //         d.getElementsByTagName("head")[0].appendChild(g);
+    //     }
+    //     "complete" === d.readyState ? g() : a.attachEvent ? a.attachEvent("onload", g) : a.addEventListener("load", g, !1);
+    // }();
+    // ', 'after');
+}
+
+
+
+
+add_action('wp_print_scripts', 'xana_print_goftino_scripts');
+function xana_print_goftino_scripts() {
+?>
+    <script type="text/javascript">
+        ! function() {
+            var i = "9BiGFT",
+                a = window,
+                d = document;
+
+            function g() {
+                var g = d.createElement("script"),
+                    s = "https://www.goftino.com/widget/" + i,
+                    l = localStorage.getItem("goftino_" + i);
+                g.async = !0, g.src = l ? s + "?o=" + l : s;
+                d.getElementsByTagName("head")[0].appendChild(g);
+            }
+            "complete" === d.readyState ? g() : a.attachEvent ? a.attachEvent("onload", g) : a.addEventListener("load", g, !1);
+        }();
+    </script>
+<?php
 }

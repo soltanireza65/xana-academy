@@ -4,8 +4,8 @@
  * Plugin Name
  *
  * @package     PluginPackage
- * @author      Your Name
- * @copyright   2019 Your Name or Company Name
+ * @author      Reza Soltani
+ * @copyright   2019 Reza Soltani or Company Name
  * @license     GPL-2.0-or-later
  *
  * @wordpress-plugin
