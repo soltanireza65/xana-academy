@@ -1,15 +1,4 @@
 {
-  "folders": [
-    {
-      "path": "."
-    },
-    {
-      "path": "../../.."
-    },
-    {
-      "path": "../../../../../.."
-    }
-  ],
   "settings": {
     "sqltools.connections": [
       {

@@ -3,9 +3,9 @@
 /**
  * Plugin Name
  *
- * @package     PluginPackage
+ * @package     XanaAcademy
  * @author      Reza Soltani
- * @copyright   2019 Reza Soltani or Company Name
+ * @copyright   2021 Reza Soltani
  * @license     GPL-2.0-or-later
  *
  * @wordpress-plugin
