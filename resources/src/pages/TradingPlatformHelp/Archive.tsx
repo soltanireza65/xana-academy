@@ -25,7 +25,7 @@ const ArchiveHelpContainer = () => {
       <ChakraProvider>
         <BrowserRouter>
           <Routes>
-            <Route path="/XaniisTradingPlatformhelp" element={<Archive />} />
+            <Route path="/xanis-trade-guide" element={<Archive />} />
           </Routes>
         </BrowserRouter>
       </ChakraProvider>

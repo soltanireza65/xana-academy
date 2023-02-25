@@ -29,7 +29,7 @@ const SingleHelpContainer = () => {
         <BrowserRouter>
           <Routes>
             {/* <Route
-              path="/XaniisTradingPlatformhelp/land"
+              path="/xanis-trade-guide/land"
               element={
                 <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
                   <GridItem colSpan={{ base: 1, md: 1, lg: 1 }}>
@@ -41,7 +41,7 @@ const SingleHelpContainer = () => {
               }
             /> */}
             <Route
-              path="/XaniisTradingPlatformhelp/:slug"
+              path="/xanis-trade-guide/:slug"
               element={<Single />}
             />
           </Routes>

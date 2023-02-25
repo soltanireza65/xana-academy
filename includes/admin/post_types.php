@@ -17,7 +17,7 @@ function xana_custom_post_types()
             'capability_type' => 'page',
             'supports' => ['title', 'editor', 'comments', 'revisions', 'trackbacks', 'author', 'excerpt', 'page-attributes', 'thumbnail', 'custom-fields', 'post-formats'],
             'can_export' => true,
-            'rewrite' => ['slug' => 'XaniisTradingPlatformhelp'],
+            'rewrite' => ['slug' => 'xanis-trade-guide'],
         ]
     );
 

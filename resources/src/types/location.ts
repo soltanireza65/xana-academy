@@ -16,13 +16,13 @@ export interface AncestorOrigins { }
 
 // const locationSample: ILocation = {
 //     "ancestorOrigins": {},
-//     "href": "https://academy.xana.biz/XaniisTradingPlatformhelp/namaye-koli-samane/#",
+//     "href": "https://academy.xana.biz/xanis-trade-guide/namaye-koli-samane/#",
 //     "origin": "https://academy.xana.biz",
 //     "protocol": "https:",
 //     "host": "academy.xana.biz",
 //     "hostname": "academy.xana.biz",
 //     "port": "",
-//     "pathname": "/XaniisTradingPlatformhelp/namaye-koli-samane/",
+//     "pathname": "/xanis-trade-guide/namaye-koli-samane/",
 //     "search": "",
 //     "hash": ""
 // }

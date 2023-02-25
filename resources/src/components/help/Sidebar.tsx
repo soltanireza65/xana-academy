@@ -46,7 +46,7 @@ const Sidebar = () => {
 
   useEffect(() => {
     helpMenu?.map((item) => {
-      if (`${slug}/` == item.url.split("/XaniisTradingPlatformhelp/")[1]) {
+      if (`${slug}/` == item.url.split("/xanis-trade-guide/")[1]) {
         setOpenItemIndex(
           parrentMenuItems.findIndex((x) => x.ID === +item.menu_item_parent)
         );
@@ -123,15 +123,15 @@ const Sidebar = () => {
                               }}
                               bg={
                                 `${slug}/` ==
-                                item.url.split("/XaniisTradingPlatformhelp/")[1]
+                                item.url.split("/xanis-trade-guide/")[1]
                                   ? "gray.100"
                                   : "white"
                               }
                               onClick={() => {
                                 navigate(
-                                  `/XaniisTradingPlatformhelp/${
+                                  `/xanis-trade-guide/${
                                     item.url.split(
-                                      "/XaniisTradingPlatformhelp/"
+                                      "/xanis-trade-guide/"
                                     )[1]
                                   }`
                                 );
@@ -142,9 +142,9 @@ const Sidebar = () => {
                               my="1"
                             >
                               <Link
-                                to={`/XaniisTradingPlatformhelp/${
+                                to={`/xanis-trade-guide/${
                                   item.url.split(
-                                    "/XaniisTradingPlatformhelp/"
+                                    "/xanis-trade-guide/"
                                   )[1]
                                 }`}
                                 style={{
@@ -153,7 +153,7 @@ const Sidebar = () => {
                                   color:
                                     `${slug}/` ==
                                     item.url.split(
-                                      "/XaniisTradingPlatformhelp/"
+                                      "/xanis-trade-guide/"
                                     )[1]
                                       ? "green"
                                       : "black",
