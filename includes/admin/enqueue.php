@@ -3,7 +3,7 @@
 add_action('wp_enqueue_scripts', 'xana_scripts');
 function xana_scripts() {
     if (get_post_type(get_the_ID()) == 'help') {
-        wp_register_script('TradingPlatformHelp_script', XANA__PLUGIN_URL . '/resources/dist/js/pages/TradingPlatformHelp/Single.js', [], '1.1', true);
+        wp_register_script('TradingPlatformHelp_script', XANA__PLUGIN_URL . '/resources/dist/js/pages/TradingPlatformHelp/Single.js', [], '1.2', true);
         wp_enqueue_script('TradingPlatformHelp_script');
         wp_localize_script(
             'TradingPlatformHelp_script',
@@ -16,7 +16,7 @@ function xana_scripts() {
         );
     }
     if (get_post_type(get_the_ID()) == 'xana_help') {
-        wp_register_script('xana_help_script', XANA__PLUGIN_URL . '/resources/dist/js/pages/XanaHelp/Single.js', [], '1.1', true); //D:\laragon\www\academy.xana\wp-content\plugins\xana-academy\resources\dist\js\pages\XanaHelp\Single.js
+        wp_register_script('xana_help_script', XANA__PLUGIN_URL . '/resources/dist/js/pages/XanaHelp/Single.js', [], '1.2', true); //D:\laragon\www\academy.xana\wp-content\plugins\xana-academy\resources\dist\js\pages\XanaHelp\Single.js
         wp_enqueue_script('xana_help_script');
         wp_localize_script(
             'xana_help_script',
