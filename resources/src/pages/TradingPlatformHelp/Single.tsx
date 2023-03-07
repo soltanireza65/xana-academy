@@ -52,5 +52,6 @@ const SingleHelpContainer = () => {
 };
 
 root.render(<SingleHelpContainer />);
-
+// @ts-expect-error
+window.test="test"
 export default Single;
