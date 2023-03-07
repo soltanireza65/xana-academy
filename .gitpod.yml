@@ -6,6 +6,6 @@
 
 tasks:
   - init: npm i --legacy-peer-deps
-    command: npm run dev
+    command: npm run watch
 
 
